@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(b.jpg) no-repeat;
+  background-size: cover;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #030303;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #a8fbbd8a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+table {
+    border-collapse: collapse;
+}
+.btn {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 4px 9px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+.modifier {background-color: #ff9800;} /* Orange */
+.modifier:hover {background: #e68a00;}
+
+.supprimer {background-color: #f44336;} /* Red */
+.supprimer:hover {background: #da190b;}
+
+table {
+  font-family: verdana, arial, sans-serif;
+  font-size: 11px;
+  color: #333333;
+  border-width: 1px;
+  border-color: #3A3A3A;
+  border-collapse: collapse;
+}
+
+table, th {
+  border-width: 2px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #5ec2778a;
+  background-color: #5ec2778a;
+}
+
+table, td {
+  background-color: #DFEBF1;
+}
+td:hover{
+  background-color: #80eb9b8a;
+}
+
+table, td {
+  border-width: 2px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #5ec2778a;
+  background-color: #ffffff;
+}

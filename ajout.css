@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(b.jpg) no-repeat;
+  background-size: cover;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #030303;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #a8fbbd8a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 4px 9px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+button {
+    border: 5px solid #f1f1f1;
+    background-color: #4cafa2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.ajout {background-color: #2196F3;} /* Blue */
+.ajout:hover {background: #0b7dda;}
+
+.modifier {background-color: #ff9800;} /* Orange */
+.modifier:hover {background: #e68a00;}
+
+.supprimer {background-color: #f44336;} /* Red */
+.supprimer:hover {background: #da190b;}
+
+.affectation{
+  background-color:#5ec2778a;
+  color: white;
+  padding: 4px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+  
+  
